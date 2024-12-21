@@ -1,0 +1,22 @@
+{
+  "name": "gmail-autocreator",
+  "version": "1.0.0",
+  "description": "An app",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "axios": "^1.7.9",
+    "express": "^4.17.1",
+    "js-yaml": "^4.1.0",
+    "p-queue": "^8.0.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.0.2",
+    "winston": "^3.3.3"
+  },
+  "author": "Alex94a",
+  "license": "MIT"
+}
